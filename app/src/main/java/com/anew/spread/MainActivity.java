@@ -67,13 +67,10 @@ public class MainActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
-
-
     }
 
 
     public class DownloadTask extends AsyncTask<String, Void, String> {
-
 
         @Override
         protected String doInBackground(String... urls) {
@@ -126,10 +123,6 @@ public class MainActivity extends AppCompatActivity {
                         {
                             att.setText(attend+"%");
                         }
-
-
-
-
                 }
             }
             catch (Exception e)
@@ -158,6 +151,5 @@ public class MainActivity extends AppCompatActivity {
 //                    .build(
 
     }
-
 
 }
